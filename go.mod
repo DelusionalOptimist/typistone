@@ -2,6 +2,8 @@ module github.com/DelusionalOptimist/typistone
 
 go 1.17
 
+replace github.com/DelusionalOptimist/typistone-server => ../typistone-server
+
 require (
 	github.com/charmbracelet/bubbles v0.7.7
 	github.com/charmbracelet/bubbletea v0.13.2
@@ -12,8 +14,11 @@ require (
 )
 
 require (
+	github.com/DelusionalOptimist/typistone-server v0.0.0-00010101000000-000000000000 // indirect
 	github.com/containerd/console v1.0.1 // indirect
 	github.com/fsnotify/fsnotify v1.5.1 // indirect
+	github.com/gorilla/mux v1.8.0 // indirect
+	github.com/gorilla/websocket v1.5.0 // indirect
 	github.com/hashicorp/hcl v1.0.0 // indirect
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/kr/pretty v0.2.0 // indirect
